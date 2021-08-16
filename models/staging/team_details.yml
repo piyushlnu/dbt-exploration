@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+    - name: team_details
+      description: "Team details"
+      columns:
+          - name: Team
+            description: "Name of team"
+          - name: City
+            description: 'City'
+            tests:
+              - is_la_team
+          - name: State
+            description: 'State'

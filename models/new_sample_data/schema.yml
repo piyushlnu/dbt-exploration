@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: new_sample
+    description: 'Sample DB'
+    database: snowflake_sample_data
+    schema: TPCH_SF100
+    tables:
+      - name: customer
+        description: 'Details about the customers'
